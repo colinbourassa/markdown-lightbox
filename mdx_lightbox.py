@@ -78,5 +78,5 @@ class LightboxImagesExtension(Extension):
         md.registerExtension(self)
 
 
-def makeExtension(configs={}):
-    return LightboxImagesExtension(configs=configs)
+def makeExtension(**kwargs):
+    return LightboxImagesExtension(**kwargs)
